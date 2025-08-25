@@ -1,0 +1,6 @@
+@echo off
+echo Stopping portfolio server...
+taskkill /f /im node.exe
+
+echo Stopping MySQL service...
+net stop mysql

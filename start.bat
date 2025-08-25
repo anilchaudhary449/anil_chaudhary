@@ -1,0 +1,6 @@
+@echo off
+echo Starting MySQL service...
+net start mysql
+
+echo Starting portfolio server...
+node server.js
